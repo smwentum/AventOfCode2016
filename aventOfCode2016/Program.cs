@@ -19,10 +19,12 @@ namespace aventOfCode2016
             string readText = File.ReadAllText(path);
             //Console.WriteLine(readText);
 
-            EasterBunnyHeadquartersPartOne q1a = new EasterBunnyHeadquartersPartOne();
+            EasterBunnyHeadquartersPartOne q1 = new EasterBunnyHeadquartersPartOne();
 
           //  Console.WriteLine(q1a.getShortestPath("R2, L3"));
-            Console.WriteLine(q1a.getShortestPath(readText));
+            Console.WriteLine(q1.getShortestPath(readText));
+            //Console.WriteLine( q1.howFarAwayAreYouWhenYouRepeatYouOldPoint("R8, R4, R4, R8"));
+            Console.WriteLine(q1.howFarAwayAreYouWhenYouRepeatYouOldPoint(readText));
         }
 
 

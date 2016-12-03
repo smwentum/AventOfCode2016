@@ -64,5 +64,13 @@ namespace aventOfCode2016.Tests
             Assert.AreEqual(12, ans);
         }
 
+        //this is the sample from problem two
+        [TestMethod()]
+        public void howFarAwayAreYouWhenYouRepeatYouOldPointTest1()
+        {
+            EasterBunnyHeadquartersPartOne directions = new EasterBunnyHeadquartersPartOne();
+            int ans = directions.howFarAwayAreYouWhenYouRepeatYouOldPoint("R8, R4, R4, R8");
+            Assert.AreEqual(4, ans);
+        }
     }
 }
