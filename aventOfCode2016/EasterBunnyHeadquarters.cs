@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace aventOfCode2016
 {
-    public class EasterBunnyHeadquartersPartOne
+    public class EasterBunnyHeadquarters
     {
         public int getShortestPath(string directions)
         {

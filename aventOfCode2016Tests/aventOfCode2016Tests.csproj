@@ -54,6 +54,7 @@
     <Compile Include="BathroomSecurityTests.cs" />
     <Compile Include="EasterBunnyHeadquartersPartOneTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SquaresWithThreeSidesTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\aventOfCode2016\aventOfCode2016.csproj">

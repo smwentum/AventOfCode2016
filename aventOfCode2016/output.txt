@@ -14,3 +14,42 @@ The answer for problem 2a is: 56983
 
 
 
+Author: Sai Wentum
+Date: 12/3/2016 11:30:52 AM
+The answer for problem 1a is: 279 
+The answer for problem 1b is: 163 
+The answer for problem 2a is: 56983
+The answer for problem 2b is: 8B8B1
+
+
+
+Author: Sai Wentum
+Date: 12/3/2016 11:58:43 AM
+The answer for problem 1a is: 279 
+The answer for problem 1b is: 163 
+The answer for problem 2a is: 56983
+The answer for problem 2b is: 8B8B1
+The answer for problem 3b is: 986
+
+
+
+Author: Sai Wentum
+Date: 12/3/2016 12:00:07 PM
+The answer for problem 1a is: 279 
+The answer for problem 1b is: 163 
+The answer for problem 2a is: 56983
+The answer for problem 2b is: 8B8B1
+The answer for problem 3b is: 986
+
+
+
+Author: Sai Wentum
+Date: 12/3/2016 12:03:47 PM
+The answer for problem 1a is: 279 
+The answer for problem 1b is: 163 
+The answer for problem 2a is: 56983
+The answer for problem 2b is: 8B8B1
+The answer for problem 3b is: 983
+
+
+

@@ -16,7 +16,7 @@ namespace aventOfCode2016.Tests
         public void getShortestPathTest()
         {
             //arrange
-            EasterBunnyHeadquartersPartOne directions = new EasterBunnyHeadquartersPartOne();
+            EasterBunnyHeadquarters directions = new EasterBunnyHeadquarters();
             int ans = directions.getShortestPath("");
             Assert.AreEqual(0, ans);
         }
@@ -24,7 +24,7 @@ namespace aventOfCode2016.Tests
         [TestMethod()]
         public void getShortestPathTest1()
         {
-            EasterBunnyHeadquartersPartOne directions = new EasterBunnyHeadquartersPartOne();
+            EasterBunnyHeadquarters directions = new EasterBunnyHeadquarters();
             int ans = directions.getShortestPath("R1");
             Assert.AreEqual(1, ans);
         }
@@ -32,7 +32,7 @@ namespace aventOfCode2016.Tests
         [TestMethod()]
         public void getShortestPathTest2()
         {
-            EasterBunnyHeadquartersPartOne directions = new EasterBunnyHeadquartersPartOne();
+            EasterBunnyHeadquarters directions = new EasterBunnyHeadquarters();
             int ans = directions.getShortestPath("L2");
             Assert.AreEqual(2, ans);
         }
@@ -41,7 +41,7 @@ namespace aventOfCode2016.Tests
         [TestMethod()]
         public void getShortestPathTestSample1()
         {
-            EasterBunnyHeadquartersPartOne directions = new EasterBunnyHeadquartersPartOne();
+            EasterBunnyHeadquarters directions = new EasterBunnyHeadquarters();
             int ans = directions.getShortestPath("R2, L3");
             Assert.AreEqual(5, ans);
         }
@@ -50,7 +50,7 @@ namespace aventOfCode2016.Tests
         [TestMethod()]
         public void getShortestPathTestSample2()
         {
-            EasterBunnyHeadquartersPartOne directions = new EasterBunnyHeadquartersPartOne();
+            EasterBunnyHeadquarters directions = new EasterBunnyHeadquarters();
             int ans = directions.getShortestPath("R2, R2, R2");
             Assert.AreEqual(2, ans);
         }
@@ -59,7 +59,7 @@ namespace aventOfCode2016.Tests
         [TestMethod()]
         public void getShortestPathTestSample3()
         {
-            EasterBunnyHeadquartersPartOne directions = new EasterBunnyHeadquartersPartOne();
+            EasterBunnyHeadquarters directions = new EasterBunnyHeadquarters();
             int ans = directions.getShortestPath("R5, L5, R5, R3");
             Assert.AreEqual(12, ans);
         }
@@ -68,7 +68,7 @@ namespace aventOfCode2016.Tests
         [TestMethod()]
         public void howFarAwayAreYouWhenYouRepeatYouOldPointTest1()
         {
-            EasterBunnyHeadquartersPartOne directions = new EasterBunnyHeadquartersPartOne();
+            EasterBunnyHeadquarters directions = new EasterBunnyHeadquarters();
             int ans = directions.howFarAwayAreYouWhenYouRepeatYouOldPoint("R8, R4, R4, R8");
             Assert.AreEqual(4, ans);
         }

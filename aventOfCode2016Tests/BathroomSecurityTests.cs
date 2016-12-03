@@ -50,5 +50,42 @@ namespace aventOfCode2016.Tests
             int key = test.getDigit("UUUUD", 8);
             Assert.AreEqual(key, 5);
         }
+
+        //this is from the test description 
+         [TestMethod()]
+        public void getKeyTest()
+        {
+            BathroomSecurity test = new BathroomSecurity();
+            char key = test.getKey("ULL", '5');
+            Assert.AreEqual(key, '5');
+        }
+
+
+        //this is from the test description 
+        [TestMethod()]
+        public void getKeyTest1()
+        {
+            BathroomSecurity test = new BathroomSecurity();
+            char key = test.getKey("RRDDD", '5');
+            Assert.AreEqual(key, 'D');
+        }
+
+        //this is from the test description 
+        [TestMethod()]
+        public void getKeyTest2()
+        {
+            BathroomSecurity test = new BathroomSecurity();
+            char key = test.getKey("LURDL", 'D');
+            Assert.AreEqual(key, 'B');
+        }
+
+        //this is from the test description 
+        [TestMethod()]
+        public void getKeyTest3()
+        {
+            BathroomSecurity test = new BathroomSecurity();
+            char key = test.getKey("UUUUD", 'D');
+            Assert.AreEqual(key, '3');
+        }
     }
 }
