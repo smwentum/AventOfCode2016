@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BathroomSecurity.cs" />
     <Compile Include="EasterBunnyHeadquartersPartOne.cs" />
     <Compile Include="point.cs" />
     <Compile Include="Program.cs" />
@@ -54,8 +55,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="output.txt" />
     <Content Include="p1a.Designer.txt" />
-    <Content Include="p1a.txt" />
+    <Content Include="realInputForProblem\p1a.txt" />
+    <Content Include="p2aProblemStatement.txt" />
+    <Content Include="p2aTest.txt" />
+    <Content Include="realInputForProblem\p2.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
