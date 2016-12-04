@@ -53,3 +53,24 @@ The answer for problem 3b is: 983
 
 
 
+Author: Sai Wentum
+Date: 12/4/2016 10:17:23 AM
+The answer for problem 1a is: 279 
+The answer for problem 1b is: 163 
+The answer for problem 2a is: 56983
+The answer for problem 2b is: 8B8B1
+The answer for problem 3b is: 983
+
+
+
+Author: Sai Wentum
+Date: 12/4/2016 10:19:30 AM
+The answer for problem 1a is: 279 
+The answer for problem 1b is: 163 
+The answer for problem 2a is: 56983
+The answer for problem 2b is: 8B8B1
+The answer for problem 3a is: 983
+The answer for problem 3a is: 1836
+
+
+

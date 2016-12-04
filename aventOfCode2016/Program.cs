@@ -39,7 +39,8 @@ namespace aventOfCode2016
                 file.WriteLine("The answer for problem 1b is: {0} ", q1.howFarAwayAreYouWhenYouRepeatYouOldPoint(readTextP1));
                 file.WriteLine("The answer for problem 2a is: {0}", q2.getCode(readTextP2));
                 file.WriteLine("The answer for problem 2b is: {0}", q2.getCodeHarder(readTextP2));
-                file.WriteLine("The answer for problem 3b is: {0}", q3.getNumberOfValidSquares(readTextP3));
+                file.WriteLine("The answer for problem 3a is: {0}", q3.getNumberOfValidSquares(readTextP3));
+                file.WriteLine("The answer for problem 3b is: {0}", q3.getNumberOfValidSquaresHarder(readTextP3));
                 file.WriteLine("\n\n");
             }
 

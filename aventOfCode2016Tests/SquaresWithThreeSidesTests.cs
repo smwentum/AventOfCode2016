@@ -30,5 +30,20 @@ namespace aventOfCode2016.Tests
 
             Assert.AreEqual(count, 1);
         }
+
+        [TestMethod()]
+        public void getNumberOfValidSquaresHarderTest()
+        {
+            SquaresWithThreeSides test = new SquaresWithThreeSides();
+
+            int count = test.getNumberOfValidSquaresHarder(new string[] {  "101 301 501" ,
+                                                                                                 " 102 302 502",
+                                                                                                " 103 303 503",
+                                                                                                 "201 401 601",
+                                                                                                  "202 402 602",
+                                                                                                    "203 403 603"  });
+
+            Assert.AreEqual( 6,count);
+        }
     }
 }
