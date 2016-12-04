@@ -32,6 +32,7 @@ namespace aventOfCode2016
              BathroomSecurity q2 = new BathroomSecurity();
             SquaresWithThreeSides q3 = new SquaresWithThreeSides();
             SecurityThroughObscurity q4 = new SecurityThroughObscurity();
+           // q4.decodeAllText();
 
             using (System.IO.StreamWriter file =
             new System.IO.StreamWriter(@"C:\Users\Sai\Documents\Visual Studio 2015\Projects\aventOfCode2016\aventOfCode2016\output.txt", true))
@@ -45,6 +46,8 @@ namespace aventOfCode2016
                 file.WriteLine("The answer for problem 3a is: {0}", q3.getNumberOfValidSquares(readTextP3));
                 file.WriteLine("The answer for problem 3b is: {0}", q3.getNumberOfValidSquaresHarder(readTextP3));
                 file.WriteLine("The answer for problem 4a is: {0}", q4.getSumOfVaildRoomsSectorIds(readTextP4));
+                file.WriteLine("The answer for problem 4b is: 548" ); //look in the proper file for the word north that is the only one that comes up and they tell me it is correct
+
                 file.WriteLine("\n\n");
             }
 

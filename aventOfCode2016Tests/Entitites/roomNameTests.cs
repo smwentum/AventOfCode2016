@@ -28,7 +28,7 @@ namespace aventOfCode2016.Entitites.Tests
             roomName test = new roomName("aaaaa-bbb-z-y-x-123[abxyz]");
 
             Assert.IsTrue(test.isValidRoom());
-         }
+        }
 
         //from the test description
         //a invaild room
@@ -38,6 +38,36 @@ namespace aventOfCode2016.Entitites.Tests
             roomName test = new roomName("totally-real-room-200[decoy]");
 
             Assert.IsFalse(test.isValidRoom());
+        }
+
+        [TestMethod()]
+        public void shiftOnceTest()
+        {
+            roomName test = new roomName("totally-real-room-200[decoy]");
+
+            string s = test.shiftOnce("abc");
+
+            Assert.AreEqual(s, "bcd");
+        }
+
+        [TestMethod()]
+        public void shiftOnceTestz()
+        {
+            roomName test = new roomName("totally-real-room-200[decoy]");
+
+            string s = test.shiftOnce("abcz");
+
+            Assert.AreEqual(s, "bcda");
+        }
+
+        [TestMethod()]
+        public void decodeTest()
+        {
+            roomName test = new roomName("qzmt-zixmtkozy-ivhz-343]");
+
+            string s = test.decode();
+
+            Assert.AreEqual(s, "very encrypted name");
         }
     }
 }

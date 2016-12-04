@@ -97,3 +97,27 @@ The answer for problem 4a is: 173787
 
 
 
+Author: Sai Wentum
+Date: 12/4/2016 12:11:01 PM
+The answer for problem 1a is: 279 
+The answer for problem 1b is: 163 
+The answer for problem 2a is: 56983
+The answer for problem 2b is: 8B8B1
+The answer for problem 3a is: 983
+The answer for problem 3b is: 1836
+The answer for problem 4a is: 173787
+
+
+
+Author: Sai Wentum
+Date: 12/4/2016 12:13:55 PM
+The answer for problem 1a is: 279 
+The answer for problem 1b is: 163 
+The answer for problem 2a is: 56983
+The answer for problem 2b is: 8B8B1
+The answer for problem 3a is: 983
+The answer for problem 3b is: 1836
+The answer for problem 4a is: 173787
+
+
+

@@ -11,6 +11,7 @@ namespace aventOfCode2016.Entitites
         public int sectorId { get; set; }
         public string eName { get; set; }
         public string checkSum { get; set; }
+        public string fullEname { get; set; }
 
 
         public roomName(string encrpytedCodeName)
@@ -20,7 +21,9 @@ namespace aventOfCode2016.Entitites
             for (int i = 0; i < splitString.Length - 1; i++)
             {
                 eName += splitString[i];
+                fullEname += splitString[i] + '-';
             }
+           fullEname= fullEname.Substring(0, fullEname.Length - 1);
             foreach (char c in splitString.Last())
             {
                 if (char.IsDigit(c))
@@ -61,6 +64,38 @@ namespace aventOfCode2016.Entitites
                 return true;
             }
             return false;
+        }
+
+           public string decode()
+           {
+            string ans = fullEname;
+            for (int i = 0; i < sectorId % 26; i++)
+            {
+                ans = shiftOnce(ans);
+            }
+            return ans;
+           }
+
+        public string shiftOnce(string s)
+        {
+            string ans = "";
+            foreach (char c in s)
+            {
+                if (c != 'z' && char.IsLetter(c))
+                {
+                    ans += (char)((int)c + 1);
+                }
+                else if(c == 'z')
+                {
+                    ans += 'a';
+                }
+                else
+                {
+                    ans += ' ';
+                }
+
+            }
+            return ans;
         }
 
 

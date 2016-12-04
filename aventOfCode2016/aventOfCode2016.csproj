@@ -66,6 +66,7 @@
     <Content Include="problem statements\p2ProblemStatement.txt" />
     <Content Include="realInputForProblem\p3.txt" />
     <Content Include="realInputForProblem\p4.txt" />
+    <Content Include="testInputForProblems\output.txt" />
     <Content Include="testInputForProblems\p2aTest.txt" />
     <Content Include="realInputForProblem\p2.txt" />
   </ItemGroup>
