@@ -25,10 +25,13 @@ namespace aventOfCode2016
             string[] readTextP2 = File.ReadAllLines(path);
             path = @"C:\Users\Sai\Documents\Visual Studio 2015\Projects\aventOfCode2016\aventOfCode2016\realInputForProblem\p3.txt";
             string[] readTextP3 = File.ReadAllLines(path);
+            path = @"C:\Users\Sai\Documents\Visual Studio 2015\Projects\aventOfCode2016\aventOfCode2016\realInputForProblem\p4.txt";
+            string[] readTextP4 = File.ReadAllLines(path);
 
             EasterBunnyHeadquarters q1 = new EasterBunnyHeadquarters();
              BathroomSecurity q2 = new BathroomSecurity();
             SquaresWithThreeSides q3 = new SquaresWithThreeSides();
+            SecurityThroughObscurity q4 = new SecurityThroughObscurity();
 
             using (System.IO.StreamWriter file =
             new System.IO.StreamWriter(@"C:\Users\Sai\Documents\Visual Studio 2015\Projects\aventOfCode2016\aventOfCode2016\output.txt", true))
@@ -41,6 +44,7 @@ namespace aventOfCode2016
                 file.WriteLine("The answer for problem 2b is: {0}", q2.getCodeHarder(readTextP2));
                 file.WriteLine("The answer for problem 3a is: {0}", q3.getNumberOfValidSquares(readTextP3));
                 file.WriteLine("The answer for problem 3b is: {0}", q3.getNumberOfValidSquaresHarder(readTextP3));
+                file.WriteLine("The answer for problem 4a is: {0}", q4.getSumOfVaildRoomsSectorIds(readTextP4));
                 file.WriteLine("\n\n");
             }
 

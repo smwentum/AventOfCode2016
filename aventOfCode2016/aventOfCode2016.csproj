@@ -48,9 +48,11 @@
     <Compile Include="BathroomSecurity.cs" />
     <Compile Include="EasterBunnyHeadquarters.cs" />
     <Compile Include="Entitites\point.cs" />
+    <Compile Include="Entitites\roomName.cs" />
     <Compile Include="Entitites\triangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecurityThroughObscurity.cs" />
     <Compile Include="SquaresWithThreeSides.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +65,7 @@
     <Content Include="realInputForProblem\p1a.txt" />
     <Content Include="problem statements\p2ProblemStatement.txt" />
     <Content Include="realInputForProblem\p3.txt" />
+    <Content Include="realInputForProblem\p4.txt" />
     <Content Include="testInputForProblems\p2aTest.txt" />
     <Content Include="realInputForProblem\p2.txt" />
   </ItemGroup>
