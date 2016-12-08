@@ -27,11 +27,14 @@ namespace aventOfCode2016
             string[] readTextP3 = File.ReadAllLines(path);
             path = @"C:\Users\Sai\Documents\Visual Studio 2015\Projects\aventOfCode2016\aventOfCode2016\realInputForProblem\p4.txt";
             string[] readTextP4 = File.ReadAllLines(path);
+            path = @"C:\Users\Sai\Documents\Visual Studio 2015\Projects\aventOfCode2016\aventOfCode2016\realInputForProblem\p5.txt";
+            string readTextP5 = File.ReadAllText(path);
 
             EasterBunnyHeadquarters q1 = new EasterBunnyHeadquarters();
              BathroomSecurity q2 = new BathroomSecurity();
             SquaresWithThreeSides q3 = new SquaresWithThreeSides();
             SecurityThroughObscurity q4 = new SecurityThroughObscurity();
+            HowAboutANiceGameOfChess q5 = new HowAboutANiceGameOfChess();
            // q4.decodeAllText();
 
             using (System.IO.StreamWriter file =
@@ -47,6 +50,8 @@ namespace aventOfCode2016
                 file.WriteLine("The answer for problem 3b is: {0}", q3.getNumberOfValidSquaresHarder(readTextP3));
                 file.WriteLine("The answer for problem 4a is: {0}", q4.getSumOfVaildRoomsSectorIds(readTextP4));
                 file.WriteLine("The answer for problem 4b is: 548" ); //look in the proper file for the word north that is the only one that comes up and they tell me it is correct
+                file.WriteLine("The answer for problem 5a is: {0}",q5.getCode(readTextP5));
+
 
                 file.WriteLine("\n\n");
             }

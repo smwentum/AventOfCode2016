@@ -54,6 +54,7 @@
     <Compile Include="BathroomSecurityTests.cs" />
     <Compile Include="EasterBunnyHeadquartersPartOneTests.cs" />
     <Compile Include="Entitites\roomNameTests.cs" />
+    <Compile Include="HowAboutANiceGameOfChessTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecurityThroughObscurityTests.cs" />
     <Compile Include="SquaresWithThreeSidesTests.cs" />

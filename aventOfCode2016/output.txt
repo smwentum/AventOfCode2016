@@ -121,3 +121,30 @@ The answer for problem 4a is: 173787
 
 
 
+Author: Sai Wentum
+Date: 12/4/2016 12:17:37 PM
+The answer for problem 1a is: 279 
+The answer for problem 1b is: 163 
+The answer for problem 2a is: 56983
+The answer for problem 2b is: 8B8B1
+The answer for problem 3a is: 983
+The answer for problem 3b is: 1836
+The answer for problem 4a is: 173787
+The answer for problem 4b is: 548
+
+
+
+Author: Sai Wentum
+Date: 12/7/2016 7:29:58 PM
+The answer for problem 1a is: 279 
+The answer for problem 1b is: 163 
+The answer for problem 2a is: 56983
+The answer for problem 2b is: 8B8B1
+The answer for problem 3a is: 983
+The answer for problem 3b is: 1836
+The answer for problem 4a is: 173787
+The answer for problem 4b is: 548
+The answer for problem 5a is: 801b56a7
+
+
+
