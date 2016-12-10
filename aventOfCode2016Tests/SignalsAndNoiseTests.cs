@@ -36,9 +36,39 @@ namespace aventOfCode2016.Tests
                 "enarar",
 
             };
-           string mostPopWord = test.getWordCount(words);
+            string mostPopWord = test.getWordCount(words);
 
-            Assert.AreEqual("easter",mostPopWord);
+            Assert.AreEqual("easter", mostPopWord);
+        }
+
+        [TestMethod()]
+        public void getWordCountHarderTest()
+        {
+            SignalsAndNoise test = new SignalsAndNoise();
+
+            string[] words = new string[] {
+
+                "eedadn",
+                "drvtee",
+                "eandsr",
+                "raavrd",
+                "atevrs",
+                "tsrnev",
+                "sdttsa",
+                "rasrtv",
+                "nssdts",
+                "ntnada",
+                "svetve",
+                "tesnvt",
+                "vntsnd",
+                "vrdear",
+                "dvrsen",
+                "enarar",
+
+            };
+            string mostPopWord = test.getWordCountHarder(words);
+
+            Assert.AreEqual("advent", mostPopWord);
         }
     }
 }
