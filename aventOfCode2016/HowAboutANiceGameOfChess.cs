@@ -32,6 +32,33 @@ namespace aventOfCode2016
             return password;
         }
 
+        public string getCodeHarder(string input)
+        {
+            // MD5 h;
+            string hash;
+            char[] p = new char[] { '*', '*', '*', '*', '*', '*', '*', '*' };
+            string password = "";
+            int num=9;
+            using (MD5 md5Hash = MD5.Create())
+            {
+                for (int i = 0; i < int.MaxValue && p.Contains('*'); i++)
+                {
+                    hash = GetMd5Hash(md5Hash, input + i.ToString());
+                    if (hash.StartsWith("00000"))
+                    {
+                        //Console.WriteLine(hash);
+                        if (char.IsDigit(hash[5]) && int.TryParse(hash[5].ToString(), out num) && num < 8 && p[num] == '*')
+                        {
+                            p[num] = (char)hash[6];
+                        }
+                        
+                    }
+                }
+            }
+
+            return new string(p);
+        }
+
         //from the msdn website
         static string GetMd5Hash(MD5 md5Hash, string input)
         {

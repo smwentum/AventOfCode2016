@@ -23,5 +23,15 @@ namespace aventOfCode2016.Tests
 
             Assert.AreEqual("18f47a30", s);
         }
+
+        [TestMethod()]
+        public void getCodeHarderTest()
+        {
+            HowAboutANiceGameOfChess test = new HowAboutANiceGameOfChess();
+
+            string s = test.getCodeHarder("abc");
+
+            Assert.AreEqual("05ace8e3", s);
+        }
     }
 }
