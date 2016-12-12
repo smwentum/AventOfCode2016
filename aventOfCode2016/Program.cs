@@ -31,6 +31,8 @@ namespace aventOfCode2016
             string readTextP5 = File.ReadAllText(path);
             path = @"C:\Users\Sai\Documents\Visual Studio 2015\Projects\aventOfCode2016\aventOfCode2016\realInputForProblem\p6.txt";
             string[] readTextP6 = File.ReadAllLines(path);
+            path = @"C:\Users\Sai\Documents\Visual Studio 2015\Projects\aventOfCode2016\aventOfCode2016\realInputForProblem\p7.txt";
+            string[] readTextP7 = File.ReadAllLines(path);
 
             EasterBunnyHeadquarters q1 = new EasterBunnyHeadquarters();
              BathroomSecurity q2 = new BathroomSecurity();
@@ -38,6 +40,7 @@ namespace aventOfCode2016
             SecurityThroughObscurity q4 = new SecurityThroughObscurity();
             HowAboutANiceGameOfChess q5 = new HowAboutANiceGameOfChess();
             SignalsAndNoise q6 = new SignalsAndNoise();
+            InternetProtocolVersion7 q7 = new InternetProtocolVersion7();
            // q4.decodeAllText();
 
             using (System.IO.StreamWriter file =
@@ -57,6 +60,7 @@ namespace aventOfCode2016
                 //file.WriteLine("The answer for problem 5b is: {0}", q5.getCodeHarder(readTextP5));
                 file.WriteLine("The answer for problem 6a a is: {0}", q6.getWordCount(readTextP6));
                 file.WriteLine("The answer for problem 6b a is: {0}", q6.getWordCountHarder(readTextP6));
+                file.WriteLine("The answer for problem 7a a is: {0}", q7.getCountOfValidStrings(readTextP7));
 
 
                 file.WriteLine("\n\n");
