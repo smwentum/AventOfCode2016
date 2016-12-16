@@ -99,5 +99,48 @@ namespace aventOfCode2016.Entitites
             
             return true;
         }
+
+        public bool isSSL()
+        {
+            //i never get to use this in real life but i am kind of bored
+            HashSet<string> outside = getSSL(outsideHypernet);
+            HashSet < string > inside = getSSL(hypernet);
+            string[] array = inside.ToArray();
+
+            foreach (string s in array)
+            {
+                if (outside.Contains(reverse(s)))
+                {
+                    return true;
+                }
+            }
+
+            
+
+            return false;
+        }
+
+        private string reverse(string s)
+        {
+            return ( s[1].ToString() + s[0].ToString() + s[1].ToString());
+        }
+
+        private HashSet<string> getSSL(List<string> outsideHypernet)
+        {
+            HashSet<string> ans = new HashSet<string>();
+
+            foreach (string s in outsideHypernet)
+            {
+                for (int i = 0; i < s.Count()-2; i++)
+                {
+                    if (s[i] == s[i + 2] && s[i] != s[1 + i])
+                    {
+                        ans.Add(s.Substring(i, 3));
+                    }
+                }
+            }
+
+            return ans;
+        }
     }
 }

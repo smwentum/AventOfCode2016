@@ -61,6 +61,7 @@ namespace aventOfCode2016
                 file.WriteLine("The answer for problem 6a a is: {0}", q6.getWordCount(readTextP6));
                 file.WriteLine("The answer for problem 6b a is: {0}", q6.getWordCountHarder(readTextP6));
                 file.WriteLine("The answer for problem 7a a is: {0}", q7.getCountOfValidStrings(readTextP7));
+                file.WriteLine("The answer for problem 7b a is: {0}", q7.getCountOfValidSSL(readTextP7));
 
 
                 file.WriteLine("\n\n");

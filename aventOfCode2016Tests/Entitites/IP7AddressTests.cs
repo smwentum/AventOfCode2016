@@ -45,7 +45,7 @@ namespace aventOfCode2016.Entitites.Tests
         [TestMethod()]
         public void hasAutonomousBridgeBypassAnnotationTest()
         {
-            IP7Address test = new IP7Address( "ioxxoj[asdfgh]zxcvbn" );
+            IP7Address test = new IP7Address("ioxxoj[asdfgh]zxcvbn");
             Assert.IsTrue(test.hasAutonomousBridgeBypassAnnotation(test.outsideHypernet));
         }
         [TestMethod()]
@@ -86,7 +86,7 @@ namespace aventOfCode2016.Entitites.Tests
             IP7Address test = new IP7Address("abcd[bddb]xyyx");
 
             Assert.IsFalse(test.isIP7());
-           
+
         }
 
 
@@ -107,7 +107,7 @@ namespace aventOfCode2016.Entitites.Tests
             Assert.IsTrue(test.isIP7());
 
         }
-        
+
         [TestMethod()]
         public void isIP7Test4()
         {
@@ -127,5 +127,35 @@ namespace aventOfCode2016.Entitites.Tests
 
         }
 
+        [TestMethod()]
+        public void isSSLTest()
+        {
+            IP7Address test = new IP7Address("aba[bab]xyz");
+
+            Assert.IsTrue(test.isSSL());
+        }
+        [TestMethod()]
+        public void isSSLTest1()
+        {
+            IP7Address test = new IP7Address("xyx[xyx]xyx");
+
+            Assert.IsFalse(test.isSSL());
+        }
+
+        [TestMethod()]
+        public void isSSLTest3()
+        {
+            IP7Address test = new IP7Address("aaa[kek]eke");
+
+            Assert.IsTrue(test.isSSL());
+        }
+
+        [TestMethod()]
+        public void isSSLTest4()
+        {
+            IP7Address test = new IP7Address("zazbz[bzb]cdb");
+
+            Assert.IsTrue(test.isSSL());
+        }
     }
 }

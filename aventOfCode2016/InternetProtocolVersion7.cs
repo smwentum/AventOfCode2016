@@ -28,5 +28,23 @@ namespace aventOfCode2016
             return ans; 
         }
 
+        public int getCountOfValidSSL(string[] s)
+        {
+            int ans = 0;
+
+            IP7Address address;
+
+            foreach (string possibleIp7 in s)
+            {
+                address = new IP7Address(possibleIp7);
+                if (address.isSSL())
+                {
+                    ans++;
+                }
+            }
+
+            return ans;
+        }
+
     }
 }

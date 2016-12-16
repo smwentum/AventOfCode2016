@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="BathroomSecurity.cs" />
     <Compile Include="EasterBunnyHeadquarters.cs" />
+    <Compile Include="Entitites\ABA.cs" />
     <Compile Include="Entitites\IP7Address.cs" />
     <Compile Include="Entitites\point.cs" />
     <Compile Include="Entitites\roomName.cs" />
