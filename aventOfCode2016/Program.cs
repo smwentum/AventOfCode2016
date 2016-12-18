@@ -71,6 +71,7 @@ namespace aventOfCode2016
                 file.WriteLine("The answer for problem 8a a is: {0}", q8.coutPixles(q8.doTheTesslisation(readTextP8,6,50)));
                 file.WriteLine("The answer for problem 8b a is: {0}", q8.printScreen( q8.doTheTesslisation(readTextP8, 6, 50)));
                 file.WriteLine("The answer for problem 9a a is: {0}", q9.getDecrptyedStringCount(readTextP9));
+                file.WriteLine("The answer for problem 9b a is: {0}", q9.getDecrptyedStringCountHarder(readTextP9));
                 file.WriteLine("\n\n");
             }
 
