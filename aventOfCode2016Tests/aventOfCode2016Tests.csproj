@@ -55,6 +55,7 @@
     <Compile Include="EasterBunnyHeadquartersPartOneTests.cs" />
     <Compile Include="Entitites\IP7AddressTests.cs" />
     <Compile Include="Entitites\roomNameTests.cs" />
+    <Compile Include="explosivesInCyberspaceTests.cs" />
     <Compile Include="HowAboutANiceGameOfChessTests.cs" />
     <Compile Include="InternetProtocolVersion7Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

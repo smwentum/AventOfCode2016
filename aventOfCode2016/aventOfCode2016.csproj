@@ -53,6 +53,7 @@
     <Compile Include="Entitites\point.cs" />
     <Compile Include="Entitites\roomName.cs" />
     <Compile Include="Entitites\triangle.cs" />
+    <Compile Include="explosivesInCyberspace.cs" />
     <Compile Include="HowAboutANiceGameOfChess.cs" />
     <Compile Include="InternetProtocolVersion7.cs" />
     <Compile Include="Program.cs" />
@@ -79,6 +80,7 @@
     <Content Include="realInputForProblem\p6.txt" />
     <Content Include="realInputForProblem\p7.txt" />
     <Content Include="realInputForProblem\p8.txt" />
+    <Content Include="realInputForProblem\p9.txt" />
     <Content Include="testInputForProblems\output.txt" />
     <Content Include="testInputForProblems\p2aTest.txt" />
     <Content Include="realInputForProblem\p2.txt" />

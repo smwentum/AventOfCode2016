@@ -35,6 +35,8 @@ namespace aventOfCode2016
             string[] readTextP7 = File.ReadAllLines(path);
             path = @"C:\Users\Sai\Documents\Visual Studio 2015\Projects\aventOfCode2016\aventOfCode2016\realInputForProblem\p8.txt";
             string[] readTextP8 = File.ReadAllLines(path);
+            path = @"C:\Users\Sai\Documents\Visual Studio 2015\Projects\aventOfCode2016\aventOfCode2016\realInputForProblem\p9.txt";
+            string readTextP9 = File.ReadAllText(path); 
 
             EasterBunnyHeadquarters q1 = new EasterBunnyHeadquarters();
              BathroomSecurity q2 = new BathroomSecurity();
@@ -44,6 +46,7 @@ namespace aventOfCode2016
             SignalsAndNoise q6 = new SignalsAndNoise();
             InternetProtocolVersion7 q7 = new InternetProtocolVersion7();
             TwoFactorAuthtication q8 = new TwoFactorAuthtication();
+            explosivesInCyberspace q9 = new explosivesInCyberspace();
            // q4.decodeAllText();
 
             using (System.IO.StreamWriter file =
@@ -67,7 +70,7 @@ namespace aventOfCode2016
                 file.WriteLine("The answer for problem 7b a is: {0}", q7.getCountOfValidSSL(readTextP7));
                 file.WriteLine("The answer for problem 8a a is: {0}", q8.coutPixles(q8.doTheTesslisation(readTextP8,6,50)));
                 file.WriteLine("The answer for problem 8b a is: {0}", q8.printScreen( q8.doTheTesslisation(readTextP8, 6, 50)));
-
+                file.WriteLine("The answer for problem 9a a is: {0}", q9.getDecrptyedStringCount(readTextP9));
                 file.WriteLine("\n\n");
             }
 
