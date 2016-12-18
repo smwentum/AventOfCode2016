@@ -60,6 +60,7 @@
     <Compile Include="SecurityThroughObscurity.cs" />
     <Compile Include="SignalsAndNoise.cs" />
     <Compile Include="SquaresWithThreeSides.cs" />
+    <Compile Include="TwoFactorAuthtication.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -77,6 +78,7 @@
     <Content Include="realInputForProblem\p5.txt" />
     <Content Include="realInputForProblem\p6.txt" />
     <Content Include="realInputForProblem\p7.txt" />
+    <Content Include="realInputForProblem\p8.txt" />
     <Content Include="testInputForProblems\output.txt" />
     <Content Include="testInputForProblems\p2aTest.txt" />
     <Content Include="realInputForProblem\p2.txt" />
