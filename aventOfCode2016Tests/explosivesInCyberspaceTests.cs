@@ -16,7 +16,7 @@ namespace aventOfCode2016.Tests
         {
             explosivesInCyberspace test = new explosivesInCyberspace();
 
-            int ans = test.getDecrptyedStringCount("ADVENT");
+            long ans = test.getDecrptyedStringCount("ADVENT");
 
             Assert.AreEqual(6, ans);
         }
@@ -26,7 +26,7 @@ namespace aventOfCode2016.Tests
         {
             explosivesInCyberspace test = new explosivesInCyberspace();
 
-            int ans = test.getDecrptyedStringCount("A(1x5)BC");
+            long ans = test.getDecrptyedStringCount("A(1x5)BC");
 
             Assert.AreEqual(7, ans);
         }
@@ -36,7 +36,7 @@ namespace aventOfCode2016.Tests
         {
             explosivesInCyberspace test = new explosivesInCyberspace();
 
-            int ans = test.getDecrptyedStringCount("A(1x5)BC ");
+            long ans = test.getDecrptyedStringCount("A(1x5)BC ");
 
             Assert.AreEqual(7, ans);
         }
@@ -46,7 +46,7 @@ namespace aventOfCode2016.Tests
         {
             explosivesInCyberspace test = new explosivesInCyberspace();
 
-            int ans = test.getDecrptyedStringCount("(3x3)XYZ");
+            long ans = test.getDecrptyedStringCount("(3x3)XYZ");
 
             Assert.AreEqual(9, ans);
         }
@@ -56,7 +56,7 @@ namespace aventOfCode2016.Tests
         {
             explosivesInCyberspace test = new explosivesInCyberspace();
 
-            int ans = test.getDecrptyedStringCount("A(2x2)BCD(2x2)EFG");
+            long ans = test.getDecrptyedStringCount("A(2x2)BCD(2x2)EFG");
 
             Assert.AreEqual(11, ans);
         }
@@ -66,7 +66,7 @@ namespace aventOfCode2016.Tests
         {
             explosivesInCyberspace test = new explosivesInCyberspace();
 
-            int ans = test.getDecrptyedStringCount("(6x1)(1x3)A");
+            long ans = test.getDecrptyedStringCount("(6x1)(1x3)A");
 
             Assert.AreEqual(6, ans);
         }
@@ -76,7 +76,7 @@ namespace aventOfCode2016.Tests
         {
             explosivesInCyberspace test = new explosivesInCyberspace();
 
-            int ans = test.getDecrptyedStringCount("X(8x2)(3x3)ABCY ");
+            long ans = test.getDecrptyedStringCount("X(8x2)(3x3)ABCY ");
 
             Assert.AreEqual(18, ans);
         }

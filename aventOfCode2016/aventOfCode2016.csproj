@@ -72,6 +72,7 @@
     <Content Include="problem statements\p3ProblemStatement.txt" />
     <Content Include="problem statements\p5problemStatement.txt" />
     <Content Include="problem statements\p7.txt" />
+    <Content Include="readme.txt" />
     <Content Include="realInputForProblem\p1a.txt" />
     <Content Include="problem statements\p2ProblemStatement.txt" />
     <Content Include="realInputForProblem\p3.txt" />
